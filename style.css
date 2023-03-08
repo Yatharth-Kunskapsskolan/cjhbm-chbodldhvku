@@ -1,0 +1,84 @@
+body
+{
+background-color:#fb3939;
+}
+
+h1
+{
+  color:rgb(0, 200, 255);
+  background-color: rgb(220, 253, 255);
+  margin: 0;
+  font-size: 55px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border: 10px solid whitesmoke;
+    border-radius: 29px;
+    animation: glow;
+    animation-duration: 15s;
+    margin-top: 275px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow 
+{
+    0%
+    {
+        box-shadow: 5px 5px 45px rgb(251, 255, 0);
+    }
+    10%
+    {
+        box-shadow: 5px 5px 45px rgb(255, 0, 0);
+    }
+    20%
+    {
+        box-shadow: 5px 5px 45px rgb(251, 0, 255);
+    }
+    30%
+    {
+        box-shadow: 5px 5px 45px rgb(157, 0, 255);
+    }
+    40%
+    {
+        box-shadow: 5px 5px 45px rgb(0, 8, 255);
+    }
+    50%
+    {
+        box-shadow: 5px 5px 45px rgb(0, 166, 255);
+    }
+    60%
+    {
+        box-shadow: 5px 5px 45px rgb(2, 255, 251);
+    }
+    70%
+    {
+        box-shadow: 5px 5px 45px rgb(0, 255, 0);
+    }
+    80%
+    {
+        box-shadow: 5px 5px 45px rgb(255, 255, 255);
+    }
+    90%
+    {
+        box-shadow: 5px 5px 45px rgb(0, 0, 0);
+    }
+    100%
+    {
+        box-shadow: 5px 5px 45px rgb(170, 119, 0);
+    }
+}
+
+
+p
+{
+    padding-top: 15px;
+    font-size: 25px;
+}
